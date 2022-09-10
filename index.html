@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Vetements CLOTHES</title>
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+    </style>
+    <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/slide.js"defer></script>
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/slide.css">
+    <link rel="stylesheet" href="./assets/css/body.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="menuLogo">
+            <ul class="menu">
+                <li><img class="logo" src="./assets/img/logo2.jpg" alt="Logo Boutique"></li>
+                <li id="accueil"><a href="">Accueil</a></li>
+                <li id="boutique"><a href="">Boutique</a></li>
+                <li id="contact"><a href="">Contact</a></li>
+            </ul>
+            <!--&#9776-->
+            <div class="burger"> &#9776 </div>
+          
+            <div class="menu_burger"></div>
+        </nav>
+        <nav class="menu_deux">
+            <ul>
+                <li id="accueil2"><a href="">Accueil</a></li>
+                <li id="boutique2"><a href="">Boutique</a></li>
+                <li id="contact2"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header>
+        <div class="titre">
+
+            <h1>
+                CLOTHES
+            </h1>
+        </div>
+        <div id="slider">
+                <img id="slide"src="./assets/img/boutique.jpg" alt="Photo de la boutique">
+                <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+                <div id="suivant" onclick="ChangeSlide(1)">></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="card">
+        <div class="card1">
+            <img src="./assets/img/mannequin.jpeg" alt="Mannequin Femme 1">
+            <h3>Collection Eté Femme</h3>
+            <h4>Prix (ensemble): 300€</h4>
+            <p>Voir la description complete</p>
+        </div>
+        <div class="card2">
+            <img src="./assets/img/manequin2.jpeg" alt="Mannequin Femme 2">
+            <h3>Collection Rentrée Femme</h3>
+            <h4>Prix (ensemble): 400€</h4>
+            <p>Voir la description complete</p>
+        </div>
+        <div class="card3">
+            <img src="./assets/img/mannquinH1.jpeg" alt="Mannequin Homme 1">
+            <h3>Collection Working Homme</h3>
+            <h4>Prix (ensemble): 300€</h4>
+            <p>Voir la description complete</p>
+        </div>
+        <div class="card4">
+            <img src="./assets/img/mannequinH3.jpeg" alt="Mannequin Homme 4">
+            <h3>Collection Urban Homme</h3>
+            <h4>Prix (Pull): 120€</h4>
+            <p>Voir la description complete</p>
+        </div>
+
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

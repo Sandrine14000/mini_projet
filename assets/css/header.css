@@ -1,0 +1,123 @@
+
+
+
+/*---------------CSS Nav Debut-----------*/
+
+.menuLogo {
+    height: 120px;
+    text-align: center;
+    
+    background-color: rgb(224, 205, 164);
+}
+.menu{
+    padding:0;
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    grid-template-rows: 1fr;
+}
+.logo {
+    grid-column: 1/2;
+    width: auto;
+    height: 100px;
+   
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accueil{
+    grid-column: 2/3;
+    text-align: center;
+    
+}
+
+#boutique{
+    grid-column: 3/4;
+    text-align: center;
+
+}
+
+#contact{
+    grid-column: 4/5;
+    text-align: center;
+
+}
+.logoBurger{
+    display: block;
+    width: auto;
+    height: 100px;
+}
+
+li {
+    /*display: flex;
+    justify-content: center;*/
+    list-style-type: none;
+    font-size: 20px;
+}
+
+
+.burger {
+    width: 30px;
+    display: none;
+}
+
+.menu_burger {
+    position: fixed;
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.menu_deux {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    position: fixed;
+}
+
+
+/*---------------CSS Nav fin-----------*/
+
+/*---------------CSS Header Debut-------*/
+.titre {
+    height: 200px;
+    background-image: url("/assets/img/vitrineHeader.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 100px;
+    opacity: 80%;
+    text-align: center;
+    text-shadow: 2px 2px lightgreen;
+    border: 2px solid black;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+
+
+/*---------------CSS Header Fin-------*/
+
+
+/*---------------CSS menu burger Debut-------*/
+
+@media screen and (max-width : 700px) {
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+/*---------------CSS menu burger Fin-------*/
