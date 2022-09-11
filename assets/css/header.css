@@ -1,25 +1,24 @@
-
-
-
 /*---------------CSS Nav Debut-----------*/
 
 .menuLogo {
-    height: 120px;
+    height: 100px;
     text-align: center;
-    
+
     background-color: rgb(224, 205, 164);
 }
-.menu{
-    padding:0;
+
+.menu {
+    padding: 0;
     display: grid;
     grid-template-columns: 10% 30% 30% 30%;
     grid-template-rows: 1fr;
 }
+
 .logo {
     grid-column: 1/2;
     width: auto;
-    height: 100px;
-   
+    height: 80px;
+
 }
 
 ul {
@@ -28,24 +27,25 @@ ul {
     align-items: center;
 }
 
-#accueil{
+#accueil {
     grid-column: 2/3;
     text-align: center;
-    
+
 }
 
-#boutique{
+#boutique {
     grid-column: 3/4;
     text-align: center;
 
 }
 
-#contact{
+#contact {
     grid-column: 4/5;
     text-align: center;
 
 }
-.logoBurger{
+
+.logoBurger {
     display: block;
     width: auto;
     height: 100px;
@@ -95,7 +95,7 @@ li {
     opacity: 80%;
     text-align: center;
     text-shadow: 2px 2px lightgreen;
-    border: 2px solid black;
+
 }
 
 h1 {
@@ -118,6 +118,12 @@ h1 {
     .burger {
         display: block;
     }
+
+    .titre {
+        font-size: 30px;
+        height: 70px;
+    }
+
 }
 
 /*---------------CSS menu burger Fin-------*/
