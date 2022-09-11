@@ -60,7 +60,7 @@ li {
 
 
 .burger {
-    width: 30px;
+    width: 50px;
     display: none;
 }
 
@@ -71,14 +71,25 @@ li {
     left: 0;
     right: 0;
     top: 0;
+
 }
 
 .menu_deux {
     top: 0;
     bottom: 0;
     right: 0;
+    left : 0;
     display: none;
     position: fixed;
+   
+}
+.menu2{
+    display: block;
+    border: 2px solid black;
+    width: 100px;
+    padding: 1%;
+    margin-left: 10%;
+    background-color: lightgreen;
 }
 
 
@@ -123,7 +134,7 @@ h1 {
         font-size: 30px;
         height: 70px;
     }
-
+    
 }
 
 /*---------------CSS menu burger Fin-------*/
