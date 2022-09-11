@@ -10,3 +10,89 @@
 footer{
     background-color: rgb(224, 205, 164);
 }
+
+.mep {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    margin-top: 0%;
+    padding: 2%;
+    padding-top: 5%;
+}
+
+.local {
+    background-color: lightgreen;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 500px
+}
+
+#local {
+    display: inline-block;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 4%;
+    text-align: center;
+}
+
+#map {
+    border: 2px solid black;
+    margin-bottom: 2%;
+
+}
+
+#btn_envoyer {
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    color: green;
+    box-shadow: 2px 2px 0 green;
+    margin-top: 10%;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%, 100%;
+}
+
+#msg {
+    width: 250px;
+    height: 150px;
+    text-align: left;
+    font-size: 15px;
+    padding: 1%;
+}
+
+#form {
+    background-color: lightgreen;
+    color: white;
+    font-size: 20px;
+    padding: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 20%;
+}
+
+#name{
+    margin-left: 11%;
+}
+
+#forname{
+    margin-left: 8%;
+}
+
+#mail{
+    margin-left: 8%;
+}
+
+.horaire{
+    background-color: lightgreen;
+    color: white;
+    font-size: 20px;
+    margin: 2% 20% 2% 20%;
+    padding: 5%;
+    text-align: center;
+}
