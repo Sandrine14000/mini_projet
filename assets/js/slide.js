@@ -1,6 +1,6 @@
 /*-----------slider js -------------*/
 
-let slide = new Array("./assets/img/boutique.jpg","./assets/img/boutique2.jpeg","./assets/img/boutique3.jpeg","./assets/img/cabine.jpeg");
+let slide = new Array("../img/boutique.jpg","../img/boutique2.jpeg","../img/boutique3.jpeg","../img/cabine.jpeg");
 let numero = 0;
 
 function ChangeSlide(sens) {
