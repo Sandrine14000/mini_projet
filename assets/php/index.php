@@ -7,6 +7,6 @@
   include('../dossier/fichier.php');
   include 'fichier2.php';*/
 
-  include('index.html');
-  include('./pages/accueil.html')
+  //include('index.html');
+  //include('./pages/accueil.html')
 ?>
