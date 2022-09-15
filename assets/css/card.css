@@ -5,6 +5,8 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
+    gap: 10px;
+    
 }
 
 .card1{
@@ -13,6 +15,7 @@
     border: 4px solid yellowgreen;
     background-color: lightgreen;
     text-align: center;
+    width: 500px;
 }
 
 .card2{
@@ -21,6 +24,7 @@
     border: 4px solid lightgreen;
     text-align: center;
     background-color: yellowgreen;
+    width: 500px;
 
 }
 
@@ -30,6 +34,7 @@
     border: 4px solid lightgreen;
     text-align: center;
     background-color: yellowgreen;
+    width: 500px;
 
 }
 
@@ -39,6 +44,7 @@
     border: 4px solid yellowgreen;
     text-align: center;
     background-color: lightgreen;
+    width: 500px;
 
 }
 
